@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ul > li{
+    display: inline-block;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.buttons {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+#search {
+    border: 1px solid;
+    border-radius: 32px;
+    width: 30vw;
+}
+
+#search-button {
+    display: inline-block;
+}

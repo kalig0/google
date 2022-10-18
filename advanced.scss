@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form {
+    height:100%;
+    display: flex;
+    padding: 8px;
+}
+
+#search {
+    border: 1px solid;
+    border-radius: 32px;
+    width: 30vw;
+}
+
+#advanced-search-button{
+    width: 40%;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    color: white;
+}
